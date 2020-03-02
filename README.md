@@ -25,11 +25,7 @@ Soundfonts Available
     - Instrument names as .json file [here](https://gleitz.github.io/midi-js-soundfonts/FatBoy/names.json)
     - URL prefix to fetch files: https://gleitz.github.io/midi-js-soundfonts/FatBoy/
 
-- Tabla-Soundfont
-    - Tabla is a popular Indian percussion instrument. Not all notes contain sound in Tabla.sf2, sounds are mapped on notes C4 to E6. Use sound font software like [Viena](https://www.synthfont.com/index.html) to find details of each sound and MIDI key.
-    - Generated from Tabla.sf2 (4.06 MB uncompressed)
-    - Instrument name : Tabla is not standard MIDI instrument, you need to map it to appropriate instrument in your program. For example, you can map it to `synth_drum`
-    
+   
     ```javascript
     if (typeof(MIDI) === 'undefined') var MIDI = {};
     if (typeof(MIDI.Soundfont) === 'undefined') MIDI.Soundfont = {};
